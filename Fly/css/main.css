@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,600;0,700;1,100;1,600;1,700&family=Merriweather:ital,wght@0,300;1,300&display=swap"); 
+
+:root { 
+	--dorado: #c6aa58; 
+	--blancoNatural: #fff; 
+	--crema: #f6f4ef; 
+	--titulo: "Barlow", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	font-family: var(--titulo);
+}
+
+button {
+	margin: 4px 2px;
+	padding: 10px 25px;
+	color: var(--blancoNatural);
+	background-color: var(--dorado);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	cursor: pointer;	
+}
+
+.buttonCenter{
+	display: grid;
+    place-items: center;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+
+p {
+	font-size: x-large;
+	color: #515151;
+}
+
+.gold {
+	color: var(--dorado);
+}
+
+.white {
+	color: var(--blancoNatural);
+}
+
+.shadow {
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+}
+
+.italicText {
+	font-style: italic;
+	font-size: 45px;
+}
+
+.titulosCenter {
+	text-align: center;
+}
+
+.imgLeft {
+	float: left;
+}
+
+.imgRight {
+	float: right;
+}
+
+.separador {
+	height: 16vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+    text-align: center;
+	font-size: xx-large;
+	position: relative;
+}
+
+.separador__img {
+	height: 16vh;
+	width: 99vw;
+}
+
+.separador__title{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.image{
+	height: 90vh;
+	border-radius: 22px;
+	/* box-shadow: 0 0 10px 0 rgba(0,0,0,0.8); */
+	position: relative;
+}
+
+.imagePlace{
+	height: 50vh;
+	/* border-radius: 22px; */
+	/* box-shadow: 0 0 10px 0 rgba(0,0,0,0.8); */
+	position: relative;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	height: 8vh;
+}
+
+.menu__logo {
+	height: 8vh;
+	width: 100%;
+}
+
+.cabecera {
+	height: 100vh;
+	background-image: url(../img/16a9/vuelos-privados-al-caribe-y-otras-partes-del-mundo-landscape.webp);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.cabecera__titulos {
+	height: 100vh;
+	display: grid;
+    place-items: center;
+    position: relative;
+    align-items: center;
+    align-content: center;
+	text-align: center;
+	text-shadow: 0px 5px 10px black;
+}
+
+.cabecera__footer {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cabecera__img {
+	height: 8vh;
+	width: 99vw;
+}
+
+.informacion {
+	height: 115vh;
+	padding-top: 115px;
+    padding-left: 100px;
+    padding-right: 100px;
+	padding-bottom: 115px;
+}
+
+.IContent {
+	padding-left: 700px;
+	padding-top: 100px;
+}
+
+.reservar {
+	height: 106.5vh;
+	padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+	/* box-shadow: 0 0 10px 0 rgba(0,0,0,0.8); */
+	background-color: var(--crema);
+}
+
+.RContent {
+	padding-right: 725px;
+	padding-left: 50px;
+	padding-top: 120px;
+}
+
+.destinos {
+	height: 100vh;
+}
+
+.destinos__header {
+	height: 65vh;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url(../img/16a9/nuestros-destinos-landscape.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter:brightness(0.6);
+	position: relative;
+}
+
+.destinos__content {
+	/* height: 500vh;  */
+	background-color: var(--blancoNatural);
+	align-items: center;
+	padding-right: 150px;
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.recomendacion {
+	height: 100vh;
+}
+
+/* .lugares {
+	height: 100vh;
+} */
+
+.lugaresPlace {
+	padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+	padding-bottom: 115px;
+}
+
+.PlaceContent {
+	padding-left: 700px;
+	padding-top: 25px;
+}
